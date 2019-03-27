@@ -24,7 +24,7 @@ int main(int argc, const char * argv[])
     // insert code here...
     print_greeting();
     get_filename(filename);
-    *get_file(filename);
+    get_file(filename);
     
     printf("%s", filename);
    
